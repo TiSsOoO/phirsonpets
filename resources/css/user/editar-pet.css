@@ -1,0 +1,93 @@
+.container-imagem-perfil {
+  padding-top: 1rem;
+  padding-left: 33rem;
+}
+
+.imagem-perfil-cachorro {
+  width: 90px;
+  height: 90px;
+}
+
+.container-button-escolher-imagem {
+  padding-top: 1rem;
+  padding-left: 30rem;
+  padding-right: 26rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.button-escolher-imagem {
+  cursor: pointer;
+}
+
+.container-nome {
+  padding-right: 26rem;
+  padding-left: 27rem;
+  padding-bottom: 1rem;
+}
+
+.text-nome {
+  padding-left: 6rem;
+  font-size: 15px;
+  color: #DF3770;
+}
+
+.nome {
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.container-raca {
+  padding-right: 26rem;
+  padding-left: 27rem;
+  padding-bottom: 1rem;
+}
+
+.text-raca {
+  padding-left: 7.5rem;
+  font-size: 15px;
+  color: #DF3770;
+}
+
+.raca {
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.container-genero {
+  padding-right: 29rem;
+  padding-left: 29rem;
+  padding-bottom: 1rem;
+}
+
+.text-genero {
+  padding-left: 5rem;
+  font-size: 15px;
+  color: #DF3770;
+}
+
+.genero {
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.container-button-salvar {
+  padding-top: 1rem;
+  padding-left: 33rem;
+  padding-bottom: 1rem;
+}
+
+.salvar {
+  background-color: #DF3770;
+  color: #FFFFFF;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}

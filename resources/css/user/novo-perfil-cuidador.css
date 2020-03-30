@@ -1,0 +1,97 @@
+.container-imagem-perfil {
+  padding-bottom: 1rem;
+}
+
+.container-button-escolher-imagem {
+  padding-top: 1rem;
+  padding-right: 3rem;
+  cursor: pointer;
+}
+
+.button-escolher-imagem {
+  cursor: pointer;
+}
+
+.text-animais {
+  color: #DF3770;
+  font-size: 35px;
+  padding-bottom: 0.2rem;
+}
+
+.container-checkbox-animais {
+  padding-bottom: 3rem;
+}
+
+.container-checkbox-cachorro {
+  padding-right: 0.5rem;
+  padding-left: 2rem;
+}
+
+.checkbox-cachorro {
+  cursor: pointer;
+}
+
+.container-checkbox-gato {
+  padding-right: 0.5rem;
+  padding-left: 2rem;
+}
+
+.checkbox-gato {
+  cursor: pointer;
+}
+
+.container-checkbox-peixe {
+  padding-right: 0.5rem;
+  padding-left: 2rem;
+}
+
+.checkbox-peixe {
+  cursor: pointer;
+}
+
+.container-checkbox-passarinho {
+  padding-right: 0.5rem;
+  padding-left: 2rem;
+}
+
+.checkbox-passarinho {
+  cursor: pointer;
+}
+
+.container-checkbox-exotico {
+  padding-right: 0.5rem;
+  padding-left: 2rem;
+}
+
+.checkbox-exotico {
+  cursor: pointer;
+}
+
+.container-text-area {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.container-input-celular {
+  padding-right: 21rem;
+  margin-bottom: 1rem;
+}
+
+.icone-celular {
+  padding-right: 1rem;
+}
+
+.container-button-salvar {
+  padding-left: 15rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.button-salvar {
+  border-radius: 10px;
+  background-color: #DF3770;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}

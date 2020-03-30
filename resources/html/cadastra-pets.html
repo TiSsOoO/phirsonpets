@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phirson Pets</title>
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="css/home/style.css">
+<link rel="stylesheet" href="css/user/editar-pet.css">
+</head>
+
+<header>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="http://localhost:8080/phirsonpets"><img src="imagens/home/logo-phirson.png" alt="Logo Phirson Pets" class="cabecalhoPrincipal-logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="imagens/home/toggle-bar.svg" alt="Icone Toggle Bar" class="cabecalhoPrincipal-icone-toggle-bar">
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link cabecalhoPrincipal-nav-link" href="http://localhost:8080/phirsonpets/home/usuario-cadastrado">HOME</a>
+                <a class="nav-item nav-link cabecalhoPrincipal-nav-link" href="#">CARE</a>
+                <a class="nav-item nav-link cabecalhoPrincipal-nav-link" href="#">SUPORTE</a>
+            </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <a class="nav-item nav-link cabecalhoPrincipal-nav-login-link" href="/phirsonpets/login">Entrar</a>
+              <a class="nav-item nav-link cabecalhoPrincipal-nav-login-link" href="/phirsonpets/logout">Sair</a>
+              <!--  <a class="nav-item nav-link cabecalhoPrincipal-nav-login-link" href="#">Cadastre-se</a> -->
+            </div>
+        </nav>
+</header>
+
+<body>
+	<!-- IGNORARs:mvcUrl('PC#detalhe')
+	.arg(0, produto.id)
+	.build()-->
+	<div class="container d-flex flex-column justify-content-center">
+		<form id="pet" action="http://localhost:8080/phirsonpets/user/a534bf15a/cadastra-pet" method="POST">
+
+			<div class="container-imagem-perfil">
+				<img src="imagens/user/cadastra-pets/imagem-perfil-cachorro.jpg" alt="Imagem de Perfil" class="imagem-perfil-cachorro rounded-circle">
+			</div>
+
+			<div class="container-button-escolher-imagem">
+				<div class="custom-file">
+					<input type="file" class="button-escolher-imagem custom-file-input">
+					<label class="custom-file-label">Escolher Imagem</label>
+				</div>
+			</div>
+
+			<div class="container-nome d-flex flex-column">
+				<label class="text-nome">Nome do Pet</label>
+				<input id="nome" class="nome" name="nome" type="text" value=""/>
+			</div>
+
+			<div class="container-raca d-flex flex-column">
+				<label class="text-raca">Raça</label>
+				<input id="raca" class="raca" name="raca" type="text" value=""/>
+			</div>
+
+			<div class="container-genero d-flex flex-column">
+				<label class="text-genero">Sexo</label>
+				<select id="genero" class="genero" name="genero">
+					<option value="MACHO">MACHO</option>
+					<option value="FEMEA">FEMEA</option>
+				</select>
+			</div>
+
+			<div class="container-button-salvar">
+				<button type="submit" class="salvar rounded-pill">Salvar</button>
+			</div>
+			<div>
+				<input type="hidden" name="_csrf" value="a3f9034f-7e6d-43a3-b57b-9af6cc8f4529" />
+			</div>
+		</form>
+	</div>
+</body>
+
+<footer class="page-footer font-small d-flex justify-content-end flex-column">
+  <div class="container">
+    <div class="text-center position-absolute container-logo">
+      <img src="imagens/home/logo-phirson.png" alt="Logo Phirson Pets" class="rodapePrincipal-logo">
+    </div>
+        <form class="rodapePrincipal-newsletter-form float-right">
+              <fieldset>
+                <legend class="rodapePrincipal-newsletter-form-legend" for="email-contato">FIQUE POR DENTRO</legend>
+                  <div class="rodapePrincipal-newsletter-form-fieldset">
+                    <input class="rodapePrincipal-newsletter-form-email-input" type="email" name="email-contato" id="email-contato">
+                      <button class="rodapePrincipal-newsletter-form-button" type="submit">Assinar Nossa Newsletter<img src="imagens/home/icon-email.svg" alt="Icone Newsletter" class="icone-email"></button>
+                  </div>
+                  <img src="imagens/home/icon-instagram.svg" alt="Icone Instagram" class="icone-instagram">
+              </fieldset>
+             </form>
+      </div>
+</footer>
+</html>

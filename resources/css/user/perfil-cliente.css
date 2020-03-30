@@ -79,6 +79,19 @@
   padding-right: 0.5rem;
 }
 
+.container-historico-cuidadores {
+  padding-top: 2rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 450px;
+  width: 100%;
+}
+
+.container-historico-cuidadores .row {
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
 .imagem-perfil-cuidador {
   width: 80px;
   height: 80px;
