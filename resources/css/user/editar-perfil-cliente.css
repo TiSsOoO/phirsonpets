@@ -1,4 +1,9 @@
+.container-imagem-perfil {
+  padding-bottom: 1rem;
+}
+
 .container-button-escolher-imagem {
+  padding-bottom: 1rem;
   padding-right: 3rem;
   cursor: pointer;
 }
@@ -7,8 +12,18 @@
   cursor: pointer;
 }
 
+.container-text-area {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
 .container-input-celular {
   padding-right: 21rem;
+  margin-bottom: 1rem;
+}
+
+.icone-celular {
+  padding-right: 1rem;
 }
 
 .container-button-tornarse-cuidador {

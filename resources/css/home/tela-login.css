@@ -29,6 +29,7 @@ body {
   box-sizing: border-box;
   font-size: 15px;
   padding-right: 2rem;
+  padding-left: 1rem;
 }
 
 .container-button-login {

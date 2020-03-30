@@ -1,4 +1,9 @@
+.container-imagem-perfil {
+  padding-bottom: 1rem;
+}
+
 .container-button-escolher-imagem {
+  padding-top: 1rem;
   padding-right: 3rem;
   cursor: pointer;
 }
@@ -7,28 +12,64 @@
   cursor: pointer;
 }
 
+.container-icones-animais {
+  padding-bottom: 1.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.container-checkbox-cachorro {
+  padding-right: 0.5rem;
+}
+
 .checkbox-cachorro {
   cursor: pointer;
+}
+
+.container-checkbox-gato {
+  padding-right: 0.5rem;
 }
 
 .checkbox-gato {
   cursor: pointer;
 }
 
+.container-checkbox-peixe {
+  padding-right: 0.5rem;
+}
+
 .checkbox-peixe {
   cursor: pointer;
+}
+
+.container-checkbox-passarinho {
+  padding-right: 0.5rem;
 }
 
 .checkbox-passarinho {
   cursor: pointer;
 }
 
+.container-checkbox-cavalo {
+  padding-right: 0.5rem;
+}
+
 .checkbox-cavalo {
   cursor: pointer;
 }
 
+.container-text-area {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 .container-input-celular {
   padding-right: 21rem;
+  margin-bottom: 1rem;
+}
+
+.icone-celular {
+  padding-right: 1rem;
 }
 
 .container-button-salvar {

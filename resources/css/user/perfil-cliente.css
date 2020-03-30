@@ -1,3 +1,7 @@
+.container-imagem-perfil {
+  padding-bottom: 2rem;
+}
+
 .imagem-perfil-cliente {
   width: 140px;
   height: 140px;
@@ -6,11 +10,23 @@
 .nome-cliente {
   color: #DF3770;
   font-size: 15px;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
 }
 
 .text-tier-cliente {
   color: #DF3770;
   font-size: 12px;
+  padding-left: 2rem;
+}
+
+.container-tier-cliente {
+  padding-left: 1rem;
+}
+
+.container-pets {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .imagem-perfil-cachorro {
@@ -26,6 +42,7 @@
 .raca-pet {
   color: #DF3770;
   font-size: 12px;
+  padding-top: 1rem;
 }
 
 .sexo-pet {
@@ -52,6 +69,14 @@
   font-size: 17px;
   align-items: center;
   justify-content: center;
+}
+
+.celular {
+  padding-top: 2rem;
+}
+
+.icone-celular {
+  padding-right: 0.5rem;
 }
 
 .imagem-perfil-cuidador {

@@ -1,22 +1,39 @@
+.container-imagem-perfil {
+  padding-bottom: 1rem;
+}
+
 .imagem-perfil-cuidador {
   width: 140px;
   height: 140px;
 }
 
+.container-icones-animais {
+  padding-bottom: 1.5rem;
+  padding-left: 0.5rem;
+}
+
 .nome-cuidador {
   color: #DF3770;
   font-size: 15px;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
 }
 
 .text-tier-cuidador {
   color: #DF3770;
   font-size: 12px;
+  padding-left: 2rem;
+}
+
+.container-tier-cuidador {
+  padding-left: 1.5rem;
 }
 
 .text-cuidados-realizados {
   color: #DF3770;
   font-size: 15px;
   padding-left: 2rem;
+  padding-top: 0.5rem;
 }
 
 .cuidados-realizados {
@@ -47,6 +64,14 @@
   justify-content: center;
 }
 
+.celular {
+  padding-top: 2rem;
+}
+
+.icone-celular {
+  padding-right: 0.5rem;
+}
+
 .imagem-perfil-cliente {
   width: 80px;
   height: 80px;
@@ -67,7 +92,7 @@
 }
 
 .icone-flecha-subir{
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .icone-flecha-descer {
