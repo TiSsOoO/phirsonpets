@@ -1,0 +1,79 @@
+.text-animais {
+  color: #DF3770;
+}
+
+.col-5 {
+  padding-top: 0.2rem;
+}
+
+.container-selecao-icones-animais {
+  justify-content: space-between;
+}
+
+.container-card {
+  padding-top: 2rem;
+  padding-left: 15rem;
+  padding-bottom: 2rem;
+}
+
+.card {
+  max-width: 650px;
+  border-radius: 20px;
+}
+
+.container-imagem-perfil {
+  padding-top: 2rem;
+}
+
+.imagem-perfil {
+  width: 150px;
+  height: 150px;
+}
+
+.nome-cuidador {
+  color: #DF3770;
+}
+
+.container-tier-cuidador {
+  padding-left: 1rem;
+}
+
+.container-icones-animais {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.icone-celular {
+  padding-right: 0.5rem;
+}
+
+.celular {
+  color: #DF3770;
+}
+
+.endereco {
+  color: #DF3770;
+}
+
+.container-button-acessar-perfil {
+  padding-left: 13rem;
+}
+
+.button-acessar-perfil {
+  background-color: #DF3770;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 12px;
+  border: none;
+  border-radius: 13px;
+}
+
+@media(max-width: 425px) {
+  .container-card {
+    padding-left: 0;
+  }
+
+  .pl-4 {
+    padding-left: 5.5rem !important;
+  }
+}

@@ -6,8 +6,7 @@
     <title>Phirson Pets</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/home/style.css">
-    <link rel="stylesheet" href="css/user/perfil-cliente.css">
-    <link rel="stylesheet" href="css/user/editar-perfil-cliente.css">
+    <link rel="stylesheet" href="css/home/suporte.css">
   </head>
   <body>
       <header>
@@ -24,51 +23,73 @@
             </div>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <a class="nav-item nav-link cabecalhoPrincipal-nav-login-link" href="editar-perfil-cliente.html">Editar</a>
-              <a class="nav-item nav-link cabecalhoPrincipal-nav-login-link" href="tela-login.html">Sair</a>
+              <a class="nav-item nav-link cabecalhoPrincipal-nav-login-link" href="tela-login.html">Login</a>
+              <a class="nav-item nav-link cabecalhoPrincipal-nav-login-link" href="cadastro-usuario.html">Cadastre-se</a>
             </div>
         </nav>
       </header>
 
       <main>
-          <div class="container pt-1 pb-1">
-            <div class="row">
-              <div class="col-3">
-                <div class="container-imagem-perfil">
-                  <img src="imagens/user/perfil-cliente/imagem-perfil-cliente.jpg" alt="Imagem de Perfil" class="imagem-perfil-cliente rounded-circle">
-                </div>
-                  <div class="container-button-escolher-imagem">
-                    <div class="custom-file">
-                      <input type="file" class="button-escolher-imagem custom-file-input">
-                      <label class="custom-file-label">Escolher Imagem</label>
+        <div class="container">
+          <form id="usuario" class="usuario" action="http://localhost:8080/phirsonpets/home/cadastro-usuario" method="POST">
+            <div class="container">
+              <div class="row">
+                  <div class="col-6">
+                    <div class="d-flex flex-column">
+
+                      <div class="container-nome d-flex flex-column">
+                        <label class="text-inputs">Nome Completo</label>
+                        <input id="nome" class="nome" name="nome" type="text" value=""/>
+                      </div>
+
+                      <div class="container-email d-flex flex-column">
+                        <label class="text-inputs">E-mail</label>
+                        <input id="email" class="email" name="email" type="email" value=""/>
+                      </div>
+
+                      <div class="container-assunto d-flex flex-column">
+                        <label class="text-inputs">Assunto</label>
+                        <input id="assunto" class="assunto" name="assunto" type="text" value=""/>
+                      </div>
+
+                      <div class="container-text-area">
+                        <label class="text-inputs">Mensagem</label>
+                        <textarea class="text-area form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                      </div>
+
+                      <div class="container-button-salvar">
+                        <button type="submit" name="Salvar" class="button-salvar">Salvar</button>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                <div class="division-line"></div>
+
+
+                <div class="col-6">
+                  <div class="container-lado-direito d-flex flex-column">
+
+                    <div class="container-imagem-cachorro">
+                      <img src="imagens\home\suporte\telemarketing-dog.png" alt="Imagem Cachorro Telemarketing" class="imagem-cachorro">
+                    </div>
+
+                    <h1 class="text-suporte">Algum Problema <br />
+                                              ou Sugestão? <br />
+                                            Conte para a gente</h1>
+
+                    <h1 class="text-miau">Miau?</h1>
+
+                    <div class="container-imagem-gato">
+                      <img src="imagens\home\suporte\gato.png" alt="Imagem Gato" class="imagem-gato">
                     </div>
                   </div>
-                <h2 class="nome-cliente">Patrick da Silva</h2>
-                <h5 class="text-tier-cliente">Tier do Cliente</h5>
-                <div class="container-tier-cliente">
-                  <img src="imagens/user/perfil-cliente/icone-estrela.svg" alt="Icone Estrela" class="icones-tier-cliente">
-                  <img src="imagens/user/perfil-cliente/icone-estrela.svg" alt="Icone Estrela" class="icones-tier-cliente">
                 </div>
               </div>
-
-              <div class="col-6">
-                <h1 class="text-descricao-cliente">Breve Descrição</h1>
-                  <div class="container-text-area">
-                    <textarea class="text-area form-control" id="exampleFormControlTextarea1" rows="5" cols="40"></textarea>
-                  </div>
-                  <div class="container-input-celular form-group mx-sm-3 d-flex">
-                    <img src="imagens/user/perfil-cuidador/icone-whatsapp-rosa.svg" alt="Icone Whatsapp" class="icone-celular">
-                    <input type="text" class="form-control" id="celular" placeholder="(11) 99999-9999">
-                  </div>
-                  <div class="container-button-tornarse-cuidador">
-                    <button type="submit" name="Tornar-se Cuidador" class="button-tornarse-cuidador">Tornar-se Cuidador</button>
-                  </div>
-                  <div class="container-button-salvar">
-                    <button type="submit" name="Salvar" class="button-salvar">Salvar</button>
-                  </div>
-              </div>
             </div>
-          </div>
+          </form>
+        </div>
       </main>
 
 <footer class="page-footer font-small d-flex justify-content-end flex-column">
@@ -88,7 +109,6 @@
              </form>
       </div>
 </footer>
-
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

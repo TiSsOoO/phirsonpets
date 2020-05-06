@@ -63,6 +63,10 @@
   padding-bottom: 2rem;
 }
 
+.text-area {
+  resize: none;
+}
+
 .container-input-celular {
   padding-right: 21rem;
   margin-bottom: 1rem;
@@ -85,4 +89,70 @@
   border: none;
   cursor: pointer;
   font-size: 20px;
+}
+
+@media(max-width: 425px) {
+  .col-3 {
+    max-width: none;
+    flex: none;
+  }
+
+  .col-6 {
+    max-width: none;
+    flex: none;
+  }
+
+  .container-imagem-perfil {
+    padding-left: 6rem;
+  }
+
+  .container-button-escolher-imagem {
+    padding-right: 2rem;
+  }
+
+  .container-icones-animais {
+    padding-left: 4.5rem;
+  }
+
+  .nome-cuidador {
+    font-size: 20px;
+    padding-left: 7rem;
+  }
+
+  .text-tier-cuidador {
+    font-size: 17px;
+    padding-left: 7rem;
+  }
+
+  .container-tier-cuidador {
+    padding-left: 7.5rem;
+  }
+
+  .text-cuidados-realizados {
+    font-size: 18px;
+    padding-left: 8.5rem;
+  }
+
+  .cuidados-realizados {
+    font-size: 18px;
+    padding-left: 8.5rem;
+  }
+
+  .text-descricao-cuidador {
+    font-size: 30px;
+    padding-top: 2rem;
+  }
+
+  .text-servicos {
+    font-size: 30px;
+  }
+
+  .form-control {
+    width: auto;
+  }
+
+  .container-button-salvar {
+    padding-left: 9rem;
+  }
+
 }

@@ -113,3 +113,89 @@
   padding-top: 21rem;
   cursor: pointer;
 }
+
+.page-footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+@media(max-width: 425px) {
+  .col-3 {
+    max-width: none;
+    flex: none;
+  }
+
+  .col-6 {
+    max-width: none;
+    flex: none;
+  }
+
+  .col-5 {
+    max-width: none;
+  }
+
+  .col-7 {
+    max-width: none;
+  }
+
+  .container-imagem-perfil {
+    padding-left: 6.5rem;
+  }
+
+  .container-button-escolher-imagem {
+    padding-right: 2rem;
+  }
+
+  .container-icones-animais {
+    padding-left: 7.5rem;
+  }
+
+  .nome-cuidador {
+    font-size: 20px;
+    padding-left: 7rem;
+  }
+
+  .text-tier-cuidador {
+    font-size: 17px;
+    padding-left: 7rem;
+  }
+
+  .container-tier-cuidador {
+    padding-left: 7.5rem;
+  }
+
+  .text-cuidados-realizados {
+    font-size: 18px;
+    padding-left: 8.5rem;
+  }
+
+  .cuidados-realizados {
+    font-size: 18px;
+    padding-left: 8.5rem;
+  }
+
+  .text-descricao-cuidador {
+    font-size: 30px;
+    padding-top: 2rem;
+  }
+
+  .text-servicos {
+    font-size: 30px;
+  }
+
+  .form-control {
+    width: auto;
+  }
+
+  .container-button-salvar {
+    padding-left: 9rem;
+  }
+
+  .page-footer{
+    position: inherit;
+  }
+
+}
