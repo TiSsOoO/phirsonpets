@@ -112,6 +112,20 @@
   cursor: pointer;
 }
 
+.container-button-excluir-pet {
+  padding-top: 1rem;
+  padding-left: 32.5rem;
+  padding-bottom: 1rem;
+}
+
+.excluir-pet {
+  background-color: #DF3770;
+  color: #FFFFFF;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
 @media(max-width: 425px) {
   .container-imagem-perfil {
     padding-left: 8rem;

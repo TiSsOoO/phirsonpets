@@ -62,29 +62,70 @@
   cursor: pointer;
 }
 
+.container-icone-adicionar-pet {
+  padding-bottom: 4rem;
+}
+
 .icone-adicionar-pets {
   position: absolute;
   padding-top: 2rem;
   cursor: pointer;
 }
 
-.text-descricao-cliente {
-  color: #DF3770;
-  font-size: 35px;
-}
-
-.descricao-cliente {
-  font-size: 17px;
-  align-items: center;
-  justify-content: center;
-}
-
-.celular {
+.container-descricao {
   padding-top: 2rem;
+}
+
+.text-endereco {
+  color: #DF3770;
+}
+
+.endereco {
+  font-size: 17px;
+}
+
+.text-cpf {
+  color: #DF3770;
+}
+
+.cpf {
+  font-size: 17px;
+}
+
+.text-email {
+  color: #DF3770;
+}
+
+.email {
+  font-size: 17px;
+}
+
+.text-genero {
+  color: #DF3770;
+}
+
+.genero {
+  font-size: 17px;
+}
+
+.text-ecuidador {
+  color: #DF3770;
+}
+
+.ecuidador {
+  font-size: 17px;
 }
 
 .icone-celular {
   padding-right: 0.5rem;
+}
+
+.link-editar-perfil {
+  color: #DF3770;
+}
+
+.link-editar-perfil:hover {
+  color: #FF69B4;
 }
 
 .container-historico-cuidadores {

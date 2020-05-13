@@ -52,20 +52,66 @@
               </div>
 
               <div class="col-6">
-                <h1 class="text-descricao-cliente">Breve Descrição</h1>
-                  <div class="container-text-area">
-                    <textarea class="text-area form-control" id="exampleFormControlTextarea1" rows="5" cols="40"></textarea>
+
+                <div class="container-nome d-flex flex-column">
+                <h5 class="text-nome">Nome</h5>
+                    <input type="text" class="input-nome" id="nome" placeholder="Samuel Nunes">
+                </div>
+
+                <div class="container-genero d-flex flex-column">
+                  <h5 class="text-sexo">Sexo</h5>
+                  <select id="genero" class="genero" name="genero">
+                      <option value="MASCULINO">MASCULINO</option>
+                      <option value="FEMININO">FEMININO</option>
+                  </select>
+                </div>
+
+                <div class="container-celular d-flex flex-column">
+                  <h5 class="text-celular">Celular</h5>
+                  <input type="text" class="input-celular" id="celular" placeholder="(11) 99999-9999">
+                </div>
+
+                <div class="container-cep d-flex flex-column">
+                  <h5 class="text-cep">Cep</h5>
+                  <input type="text" class="input-cep" id="cep" placeholder="000.00-000">
+                </div>
+
+                <div class="container-rua d-flex flex-column">
+                  <h5 class="text-rua">Rua</h5>
+                  <input type="text" class="input-rua" id="rua" placeholder="Rua Exemplo">
+                </div>
+
+                <div class="container-numero d-flex flex-column">
+                  <h5 class="text-numero">Número</h5>
+                  <input type="text" class="input-numero" id="numero" placeholder="99.999">
+                </div>
+
+                <div class="container-bairro d-flex flex-column">
+                  <h5 class="text-bairro">Bairro</h5>
+                  <input type="text" class="input-bairro" id="bairro" placeholder="Itaquera">
+                </div>
+
+                <div class="container-cidade d-flex flex-column">
+                  <h5 class="text-cidade">Cidade</h5>
+                  <input type="text" class="input-cidade" id="cidade" placeholder="São Paulo">
+                </div>
+
+                  <div class="container-uf d-flex flex-column">
+                      <h5 class="text-estado">Estado</h5>
+                      <select id="uf" class="uf" name="uf">
+                        <option value="SP">SP</option>
+                        <option value="MG">MG</option>
+                      </select>
                   </div>
-                  <div class="container-input-celular form-group mx-sm-3 d-flex">
-                    <img src="imagens/user/perfil-cuidador/icone-whatsapp-rosa.svg" alt="Icone Whatsapp" class="icone-celular">
-                    <input type="text" class="form-control" id="celular" placeholder="(11) 99999-9999">
-                  </div>
+
                   <div class="container-button-tornarse-cuidador">
                     <button type="submit" name="Tornar-se Cuidador" class="button-tornarse-cuidador">Tornar-se Cuidador</button>
                   </div>
+
                   <div class="container-button-salvar">
                     <button type="submit" name="Salvar" class="button-salvar">Salvar</button>
                   </div>
+
               </div>
             </div>
           </div>

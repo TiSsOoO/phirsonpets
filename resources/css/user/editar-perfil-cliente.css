@@ -12,22 +12,164 @@
   cursor: pointer;
 }
 
-.container-text-area {
-  padding-bottom: 2rem;
-  padding-top: 1rem;
+.container-nome {
+  padding-right: 18rem;
+  padding-bottom: 1rem;
 }
 
-.text-area {
-  resize: none;
+.text-nome {
+  font-size: 16px;
+  color: #DF3770;
 }
 
-.container-input-celular {
-  padding-right: 21rem;
-  margin-bottom: 1rem;
+.nome {
+  font-size: 17px;
 }
 
-.icone-celular {
-  padding-right: 1rem;
+.input-nome {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+
+.container-genero {
+  padding-right: 24rem;
+  padding-bottom: 1rem;
+}
+
+.text-sexo {
+  font-size: 16px;
+  color: #DF3770;
+}
+
+.genero {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.container-celular {
+  padding-right: 26rem;
+  padding-bottom: 1rem;
+}
+
+.text-celular {
+  font-size: 16px;
+  color: #DF3770;
+}
+
+.input-celular {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.container-cep {
+  padding-right: 28rem;
+  padding-bottom: 1rem;
+}
+
+.text-cep {
+  font-size: 16px;
+  color: #DF3770;
+}
+
+.input-cep {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.container-rua {
+  padding-right: 18rem;
+  padding-bottom: 1rem;
+}
+
+.text-rua {
+  font-size: 16px;
+  color: #DF3770;
+}
+
+.input-rua {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.container-numero {
+  padding-right: 29rem;
+  padding-bottom: 1rem;
+}
+
+.text-numero {
+  font-size: 16px;
+  color: #DF3770;
+}
+
+.input-numero {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.container-bairro {
+  padding-right: 20rem;
+  padding-bottom: 1rem;
+}
+
+.text-bairro {
+  font-size: 16px;
+  color: #DF3770;
+}
+
+.input-bairro {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.container-cidade {
+  padding-right: 20rem;
+  padding-bottom: 1rem;
+}
+
+.text-cidade {
+  font-size: 16px;
+  color: #DF3770;
+}
+
+.input-cidade {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.text-estado {
+  font-size: 16px;
+  color: #DF3770;
+}
+
+.container-uf {
+  padding-right: 30rem;
+  padding-bottom: 1rem;
+}
+
+.uf {
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: 0;
+  cursor: pointer;
 }
 
 .container-button-tornarse-cuidador {
@@ -56,6 +198,10 @@
   border: none;
   cursor: pointer;
   font-size: 20px;
+}
+
+.page-footer {
+  position: inherit;
 }
 
 @media(max-width: 425px) {
