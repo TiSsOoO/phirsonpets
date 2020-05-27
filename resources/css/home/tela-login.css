@@ -45,10 +45,6 @@ body {
   cursor: pointer;
 }
 
-.icone-login {
-  padding-left: 5px;
-}
-
 .imagem-cachorro1 {
   width: 47px;
   height: 86px;
@@ -63,6 +59,7 @@ body {
   height: 350px;
   left: 50%;
   position: absolute;
+  top: 25%;
 }
 
 .container-cadastrese {
@@ -80,6 +77,7 @@ body {
 .container-button-cadastrese {
   padding-top: 1rem;
   padding-left: 1rem;
+  padding-bottom: 11rem;
 }
 
 .button-cadastrese {
@@ -90,13 +88,8 @@ body {
   cursor: pointer;
 }
 
-.icone-cadastrese {
-  padding-left: 6px;
-}
-
 .container-imagem-cachorro2 {
   padding-left: 6rem;
-  padding-top: 11rem;
 }
 
 .imagem-cachorro2 {
@@ -143,17 +136,11 @@ body {
 
 .container-button-cadastrese {
   padding-left: 2rem;
+  padding-bottom: 17rem;
 }
 
 .container-imagem-cachorro2 {
   display: none;
-}
-
-footer {
-    position: fixed;
-    bottom:0;
-    left:0;
-    width: 100%;
 }
 
 }
