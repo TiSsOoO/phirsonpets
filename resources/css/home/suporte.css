@@ -19,6 +19,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-email {
@@ -31,6 +32,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-assunto {
@@ -43,6 +45,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-text-area {

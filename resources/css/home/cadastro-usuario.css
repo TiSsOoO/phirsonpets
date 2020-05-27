@@ -19,6 +19,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-nome {
@@ -31,6 +32,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-genero {
@@ -44,6 +46,7 @@
   border-radius: 10px;
   outline: 0;
   cursor: pointer;
+  padding-left: 1rem;
 }
 
 .container-cpf {
@@ -56,6 +59,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-celular {
@@ -68,6 +72,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-radio-buttons {
@@ -107,6 +112,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-rua {
@@ -119,6 +125,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-numero {
@@ -131,6 +138,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-bairro {
@@ -143,6 +151,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-cidade {
@@ -155,6 +164,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-uf {
@@ -168,6 +178,7 @@
   border-radius: 10px;
   outline: 0;
   cursor: pointer;
+  padding-left: 1rem;
 }
 
 .container-senha {
@@ -180,6 +191,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-confirma_senha {
@@ -192,6 +204,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-submit {

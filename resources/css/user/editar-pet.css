@@ -37,6 +37,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-raca {
@@ -56,6 +57,7 @@
   font-size: 15px;
   border-radius: 10px;
   outline: 0;
+  padding-left: 1rem;
 }
 
 .container-tipoAnimal {
@@ -65,7 +67,7 @@
 }
 
 .text-tipoAnimal {
-  padding-left: 4.9rem;
+  padding-left: 4rem;
   font-size: 15px;
   color: #DF3770;
 }
@@ -76,6 +78,7 @@
   border-radius: 10px;
   outline: 0;
   cursor: pointer;
+  padding-left: 1rem;
 }
 
 .container-genero {
@@ -96,6 +99,7 @@
   border-radius: 10px;
   outline: 0;
   cursor: pointer;
+  padding-left: 1rem;
 }
 
 .container-button-finalizar {
