@@ -1,74 +1,44 @@
-.container-imagem-perfil {
-  padding-bottom: 1rem;
+.text-descricao-cuidador {
+  padding-left: 20rem;
 }
 
-.container-button-escolher-imagem {
-  padding-top: 1rem;
-  padding-right: 3rem;
-  cursor: pointer;
+.text-servicos {
+  padding-left: 20rem;
 }
 
-.button-escolher-imagem {
-  cursor: pointer;
-}
-
-.container-icones-animais {
-  padding-bottom: 1.5rem;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-}
-
-.container-checkbox-cachorro {
-  padding-right: 0.5rem;
-}
-
-.checkbox-cachorro {
-  cursor: pointer;
-}
-
-.container-checkbox-gato {
-  padding-right: 0.5rem;
-}
-
-.checkbox-gato {
-  cursor: pointer;
-}
-
-.container-checkbox-peixe {
-  padding-right: 0.5rem;
-}
-
-.checkbox-peixe {
-  cursor: pointer;
-}
-
-.container-checkbox-passarinho {
-  padding-right: 0.5rem;
-}
-
-.checkbox-passarinho {
-  cursor: pointer;
-}
-
-.container-checkbox-cavalo {
-  padding-right: 0.5rem;
-}
-
-.checkbox-cavalo {
-  cursor: pointer;
+.subtext-servicos {
+  padding-left: 20rem;
+  color: #DF3770;
 }
 
 .container-text-area {
   padding-top: 1rem;
   padding-bottom: 2rem;
+  padding-left: 20rem;
+  padding-right: 10rem;
 }
 
 .text-area {
   resize: none;
 }
 
+.caracteres-descricao {
+  color: #DF3770;
+  padding-top: 0.2rem;
+  font-size: 20px;
+  padding-left: 37rem;
+}
+
+.caracteres-servicos {
+  color: #DF3770;
+  padding-top: 0.2rem;
+  font-size: 20px;
+  padding-left: 37rem;
+}
+
 .container-input-celular {
-  padding-right: 21rem;
+  padding-right: 36rem;
+  padding-left: 20rem;
   margin-bottom: 1rem;
 }
 
@@ -76,8 +46,68 @@
   padding-right: 1rem;
 }
 
+.text-animais {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 30px;
+  padding-left: 20rem;
+  color: #DF3770;
+}
+
+.container-icones-animais {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 20.5rem;
+}
+
+.tipo-animal {
+  color: #DF3770;
+  padding-left: 0.5rem;
+}
+
+.icones-animais {
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.checkbox-cachorro {
+  cursor: pointer;
+}
+
+.container-checkbox-gato {
+  padding-top: 1rem;
+}
+
+.checkbox-gato {
+  cursor: pointer;
+}
+
+.container-checkbox-peixe {
+  padding-top: 1rem;
+}
+
+.checkbox-peixe {
+  cursor: pointer;
+}
+
+.container-checkbox-passarinho {
+  padding-top: 1rem;
+}
+
+.checkbox-passarinho {
+  cursor: pointer;
+}
+
+.container-checkbox-cavalo {
+  padding-top: 1rem;
+}
+
+.checkbox-cavalo {
+  cursor: pointer;
+}
+
 .container-button-salvar {
-  padding-left: 15rem;
+  padding-left: 37rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }

@@ -31,70 +31,59 @@
       </header>
 
       <main>
-          <div class="container pt-1 pb-1">
-            <div class="row">
-              <div class="col-3">
-              <div class="container-imagem-perfil">
-                  <img src="imagens/user/perfil-cuidador/imagem-perfil-cuidador.jpg" alt="Imagem de Perfil" class="imagem-perfil-cuidador rounded-circle">
-                  <div class="container-button-escolher-imagem">
-                    <div class="custom-file">
-                      <input type="file" class="button-escolher-imagem custom-file-input">
-                      <label class="custom-file-label">Escolher Imagem</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="container-icones-animais d-flex">
-                  <div class="container-checkbox-cachorro">
-                    <input type="checkbox" id="checkbox-cachorro" class="checkbox-cachorro">
-                    <img src="imagens/user/perfil-cuidador/icone-cachorro.svg" alt="Icone Cachorro" class="icones-animais">
-                  </div>
-                  <div class="container-checkbox-gato">
-                    <input type="checkbox" id="checkbox-gato" class="checkbox-gato">
-                    <img src="imagens/user/perfil-cuidador/icone-gato.svg" alt="Icone Gato" class="icones-animais">
-                  </div>
-                  <div class="container-checkbox-peixe">
-                    <input type="checkbox" id="checkbox-peixe" class="checkbox-peixe">
-                    <img src="imagens/user/perfil-cuidador/icone-peixe.svg" alt="Icone Peixe" class="icones-animais">
-                  </div>
-                  <div class="container-checkbox-passarinho">
-                    <input type="checkbox" id="checkbox-passarinho" class="checkbox-passarinho">
-                    <img src="imagens/user/perfil-cuidador/icone-passarinho.svg" alt="Icone Passarinho" class="icones-animais">
-                  </div>
-                  <div class="container-checkbox-cavalo">
-                    <input type="checkbox" id="checkbox-cavalo" class="checkbox-cavalo">
-                    <img src="imagens/user/perfil-cuidador/icone-cavalo.svg" alt="Icone Cavalo" class="icones-animais">
-                  </div>
-                </div>
-                <h2 class="nome-cuidador">Beatriz da Silva</h2>
-                <h5 class="text-tier-cuidador">Tier do Cuidador</h3>
-                <div class="container-tier-cuidador">
-                  <img src="imagens/user/perfil-cuidador/icone-estrela.svg" alt="Icone Estrela" class="icones-tier-cuidador">
-                  <img src="imagens/user/perfil-cuidador/icone-estrela.svg" alt="Icone Estrela" class="icones-tier-cuidador">
-                  <img src="imagens/user/perfil-cuidador/icone-estrela.svg" alt="Icone Estrela" class="icones-tier-cuidador">
-                  <img src="imagens/user/perfil-cuidador/icone-meia-estrela.svg" alt="Icone Meia Estrela" class="icones-tier-cuidador">
-                </div>
-                <h4 class="text-cuidados-realizados">Cuidados</h4>
-                <h4 class="cuidados-realizados">1000 <img src="imagens/user/perfil-cuidador/icone-gato.svg" alt="Icone Gato" class="icones-cuidados"></h4>
-              </div>
-
-              <div class="col-6">
-                <h1 class="text-descricao-cuidador">Breve Descrição</h1>
+          <div class="container d-flex flex-column justify-content-center pt-2 pb-2">
+                <form class="form-editar-cuidador" action="index.html" method="post">
+                  <h1 class="text-descricao-cuidador">Breve Descrição</h1>
+                  <h5 class="subtext-servicos">Fale um pouco sobre você</h5>
                   <div class="container-text-area">
-                    <textarea class="text-area form-control" id="exampleFormControlTextarea1" rows="5" cols="40"></textarea>
+                    <textarea class="text-area form-control" id="TxtObservacoes" rows="5" cols="40" maxlength="500"></textarea>
+                    <span class="caracteres-descricao">500</span>
                   </div>
-                <h1 class="text-servicos">Serviços</h1>
+                  <h1 class="text-servicos">Serviços</h1>
+                  <h5 class="subtext-servicos">Descreva os preços e os tipos de serviços que realiza o care</h5>
                   <div class="container-text-area">
-                    <textarea class="text-area form-control" id="exampleFormControlTextarea1" rows="5" cols="40"></textarea>
+                  <textarea class="text-area form-control" id="TxtObservacoes2" rows="5" cols="40" maxlength="500"></textarea>
+                  <span class="caracteres-servicos">500</span>
                   </div>
                   <div class="container-input-celular form-group mx-sm-3 d-flex">
                     <img src="imagens/user/perfil-cuidador/icone-whatsapp-rosa.svg" alt="Icone Whatsapp" class="icone-celular">
                     <input type="text" class="form-control" id="celular" placeholder="(11) 99999-9999">
                   </div>
+
+                  <h1 class="text-animais">Quais animais realiza o care?</h1>
+
+                  <div class="container-icones-animais d-flex flex-column">
+                    <div class="container-checkbox-cachorro d-flex">
+                      <input type="checkbox" id="checkbox-cachorro" class="checkbox-cachorro">
+                      <img src="imagens/user/perfil-cuidador/icone-cachorro.svg" alt="Icone Cachorro" class="icones-animais">
+                      <h5 class="tipo-animal">Cachorro</h5>
+                    </div>
+                    <div class="container-checkbox-gato d-flex">
+                      <input type="checkbox" id="checkbox-gato" class="checkbox-gato">
+                      <img src="imagens/user/perfil-cuidador/icone-gato.svg" alt="Icone Gato" class="icones-animais">
+                      <h5 class="tipo-animal">Gato</h5>
+                    </div>
+                    <div class="container-checkbox-peixe d-flex">
+                      <input type="checkbox" id="checkbox-peixe" class="checkbox-peixe">
+                      <img src="imagens/user/perfil-cuidador/icone-peixe.svg" alt="Icone Peixe" class="icones-animais">
+                      <h5 class="tipo-animal">Peixe</h5>
+                    </div>
+                    <div class="container-checkbox-passarinho d-flex">
+                      <input type="checkbox" id="checkbox-passarinho" class="checkbox-passarinho">
+                      <img src="imagens/user/perfil-cuidador/icone-passarinho.svg" alt="Icone Passarinho" class="icones-animais">
+                      <h5 class="tipo-animal">Passarinho</h5>
+                    </div>
+                    <div class="container-checkbox-cavalo d-flex">
+                      <input type="checkbox" id="checkbox-cavalo" class="checkbox-cavalo">
+                      <img src="imagens/user/perfil-cuidador/icone-cavalo.svg" alt="Icone Cavalo" class="icones-animais">
+                      <h5 class="tipo-animal">Exótico</h5>
+                    </div>
+                  </div>
+
                   <div class="container-button-salvar">
                     <button type="submit" name="Salvar" class="button-salvar">Salvar</button>
                   </div>
-              </div>
-            </div>
+                </form>
           </div>
       </main>
 
@@ -116,6 +105,8 @@
       </div>
 </footer>
 
+      <script src="js/home/jquery.js"></script>
+      <script src="js/home/main.js"></script>
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

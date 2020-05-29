@@ -1,0 +1,31 @@
+.container-email {
+width: 1140px;
+height: 630px;
+}
+
+.text-email-enviado {
+  color: #DF3770;
+  font-size: 35px;
+  padding-left: 26rem;
+  padding-bottom: 3rem;
+}
+
+.imagem-email {
+  padding-left: 30rem;
+}
+
+.container-submit {
+  padding-top: 3rem;
+  padding-left: 26rem;
+  padding-bottom: 1rem;
+}
+
+.submit {
+  background-color: #DF3770;
+  color: #FFFFFF;
+  font-size: 17px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: none;
+  cursor: pointer;
+}
